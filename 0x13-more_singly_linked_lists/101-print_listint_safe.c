@@ -2,10 +2,9 @@
 
 /**
 * print_listint_safe- prints all elements of a list
-* @head: pointer to the first element
+* @head: start of list
 *
-* Description: this function prints all elements of a list
-* Return: the number of nodes in the list
+* Return: number of nodes in the list
 */
 size_t print_listint_safe(const listint_t *head)
 {
