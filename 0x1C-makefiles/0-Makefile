@@ -1,2 +1,2 @@
-say_hello:
-        echo "Hello World"
+all:
+	gcc school.c main.c -o school

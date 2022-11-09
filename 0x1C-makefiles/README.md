@@ -28,35 +28,36 @@ Create your first Makefile:
 #### 1. make -f 1-Makefile
 * name of the executable: school
 * rules: _all_, which binds your executable
-* variables: __CC__ - the compiler to be used
-             __SRC__ - the _.c_ files
+* variables:
+    * __CC__ - the compiler to be used
+    * __SRC__ - the _.c_ files
 
 #### 2. make -f 2-Makefile
 Create your first useful Makefile
 * name of executable: _school_
 * rules: _all_, which binds your executable
 * variables:
-            __CC__ - the compiler to be used
-            __SRC__ - the _.c_ files
-            __OBJ__ - the _.o_ files
-            __NAME__ - name of the executable
+    * __CC__ - the compiler to be used
+    * __SRC__ - the _.c_ files
+    * __OBJ__ - the _.o_ files
+    * __NAME__ - name of the executable
 * The all rule should recompile only the updated source files
 * You're not allowed to have a list of all the _.o_ files
 
 #### 3. make -f 3-Makefile
 * name of the executable: _school_
 * rules:
-        _all_: builds your executable
-        _clean_: deletes all Emacs and Vim temporary files along with the executable
-        _oclean_: deletes the object files
-        _fclean_: deletes all Emacs and Vim temporary files, the executable, and the object files
-        _re_: forces recompilation of all source files
+    * _all_: builds your executable
+    * _clean_: deletes all Emacs and Vim temporary files along with the executable
+    * _oclean_: deletes the object files
+    * _fclean_: deletes all Emacs and Vim temporary files, the executable, and the object files
+    * _re_: forces recompilation of all source files
 * variables:
-            __CC__: compiler to be used
-            __SRC__: the _.c_ files
-            __OBJ__: the _.o_ files
-            __NAME__: name of the executable
-            __RM__: program to delete the files
+    * __CC__: compiler to be used
+    * __SRC__: the _.c_ files
+    * __OBJ__: the _.o_ files
+    * __NAME__: name of the executable
+    * __RM__: program to delete the files
 * The all rule should recompile only the updated source files
 * The clean, oclean, fclean, re rules should never fail
 * You are not allowed to have a list of all the _.o_ files
@@ -64,18 +65,18 @@ Create your first useful Makefile
 #### 4. A complete Makefile
 * name of the executable: _school_
 * rules:
-        _all_: builds your executable
-        _clean_: deletes all Emacs and Vim temporary files along with the executable
-        _oclean_: deletes the object files
-        _fclean_: deletes all Emacs and Vim temporary files, the executable, and the object files
-        _re_: forces recompilation of all source files
+    * _all_: builds your executable
+    * _clean_: deletes all Emacs and Vim temporary files along with the executable
+    * _oclean_: deletes the object files
+    * _fclean_: deletes all Emacs and Vim temporary files, the executable, and the object files
+    * _re_: forces recompilation of all source files
 * variables:
-            __CC__: compiler to be used
-            __SRC__: the _.c_ files
-            __OBJ__: the _.o_ files
-            __NAME__: name of the executable
-            __RM__: program to delete the files
-            __CFLAGS__: your favorite compiler flags: _-Wall_ _-Werror_ _-Wextra_ _-pedantic_
+    * __CC__: compiler to be used
+    * __SRC__: the _.c_ files
+    * __OBJ__: the _.o_ files
+    * __NAME__: name of the executable
+    * __RM__: program to delete the files
+    * __CFLAGS__: your favorite compiler flags: _-Wall_ _-Werror_ _-Wextra_ _-pedantic_
 * The all rule should recompile only the updated source files
 * The clean, oclean, fclean, re rules should never fail
 * You are not allowed to have a list of all the _.o_ files
@@ -90,6 +91,7 @@ Create a function __def island_perimeter(grid):__ that returns the perimeter of 
     * Grid is rectangular, width and height don't exceed 100
 * Grid is completely surrounded by water, and there is one island (or nothing)
 * The island doesn't have lakes
+
 __Requirements__
 _First line contains #!/usr/bin/python3_
 _You are not required to import any module_
