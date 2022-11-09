@@ -93,6 +93,6 @@ Create a function __def island_perimeter(grid):__ that returns the perimeter of 
 * The island doesn't have lakes
 
 __Requirements__
-_First line contains #!/usr/bin/python3_
-_You are not required to import any module_
-_Module and function must be documented_
+* _First line contains #!/usr/bin/python3_
+* _You are not required to import any module_
+* _Module and function must be documented_
